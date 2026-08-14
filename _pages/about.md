@@ -1,10 +1,14 @@
 ---
 permalink: /
-title: "Maryan's Personal Website"
+title: "Hi there!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi there! Website is coming soon 
+Website coming soon!
+
+Title
+======
+Hihi

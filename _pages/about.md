@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi there"
+title: "Maryan Le - Personal Website"
 author_profile: true
 redirect_from: 
   - /about/

@@ -7,5 +7,5 @@ redirect_from:
   - /about.html
 ---
 
-Website is coming soon!
+
 

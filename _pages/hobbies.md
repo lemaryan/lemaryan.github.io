@@ -1,8 +1,7 @@
 ---
-title: "Hobbies"
+title: "hobbies"
 permalink: /hobbies/
 author_profile: false
 ---
 
-for fun i like to climb at the bay's best climbing gym iykyk, have fun with pen sketches, play classical piano, and cook for my friends and family. 
-I also love love writing letters, which you can see a snippet here.
+i like to climb at the bay's best climbing gym iykyk ;), play classical piano, take care of my ten thousand plants, and cook for my friends and family. i also love love making pen sketches, here a little snippet.

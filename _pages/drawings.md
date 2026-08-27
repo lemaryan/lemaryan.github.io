@@ -1,6 +1,6 @@
 ---
-title: "Sketches"
-permalink: /sketches/
+title: "sketches"
+permalink: /drawings/
 author_profile: false
 ---
 

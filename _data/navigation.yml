@@ -19,9 +19,6 @@ main:
 
   - title: "drawings"
     url: /drawings/
-
-  - title: "letters"
-    url: /letters/
     
   # - title: "CV"
   #   url: /cv-json/

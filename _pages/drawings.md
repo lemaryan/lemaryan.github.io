@@ -51,27 +51,15 @@ author_profile: false
 <div class="drawings-grid">
 
   <div class="drawing-box">
-    <img src="/images/drawings/drawing1.jpg" alt="Drawing 1">
+    <img src="/images/drawings/drawing1.png" alt="Drawing 1">
   </div>
 
   <div class="drawing-box">
-    <img src="/images/drawings/drawing2.jpg" alt="Drawing 2">
+    <img src="/images/drawings/drawing2.png" alt="Drawing 2">
   </div>
 
   <div class="drawing-box">
-    <img src="/images/drawings/drawing3.jpg" alt="Drawing 3">
-  </div>
-
-  <div class="drawing-box">
-    <img src="/images/drawings/drawing4.jpg" alt="Drawing 4">
-  </div>
-
-  <div class="drawing-box">
-    <img src="/images/drawings/drawing5.jpg" alt="Drawing 5">
-  </div>
-
-  <div class="drawing-box">
-    <img src="/images/drawings/drawing6.jpg" alt="Drawing 6">
+    <img src="/images/drawings/drawing3.png" alt="Drawing 3">
   </div>
 
 </div>

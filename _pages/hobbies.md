@@ -1,6 +1,6 @@
 ---
 title: "Hobbies"
-permalink: /courses/
+permalink: /hobbies/
 author_profile: false
 ---
 

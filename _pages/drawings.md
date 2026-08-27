@@ -30,15 +30,15 @@ author_profile: false
 <div class="drawings-container">
 
   <div class="drawing-box">
-    <img src="/images/drawing1.jpg" alt="Drawing 1">
+    <img src="/images/drawing1.png" alt="Drawing 1">
   </div>
 
   <div class="drawing-box">
-    <img src="/images/drawing2.jpg" alt="Drawing 2">
+    <img src="/images/drawing2.png" alt="Drawing 2">
   </div>
 
   <div class="drawing-box">
-    <img src="/images/drawing3.jpg" alt="Drawing 3">
+    <img src="/images/drawing3.png" alt="Drawing 3">
   </div>
 
 </div>

@@ -15,7 +15,13 @@ main:
     url: /courses/    
 
   - title: "hobbies"
-    url: /hobbies/    
+    url: /hobbies/  
+
+  - title: "drawings"
+    url: /drawings/
+
+  - title: "letters"
+  url: /letters/
     
   # - title: "CV"
   #   url: /cv-json/

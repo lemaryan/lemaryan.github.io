@@ -5,140 +5,73 @@ author_profile: false
 ---
 
 <style>
-/* Experience page */
-
-.experience-container {
-  width: 100%;
-  margin: 30px 0;
-}
-
-.experience-box {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 28px 32px;
-  margin-bottom: 22px;
-
-  /* Matches your site's background */
-  background-color: transparent;
-
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 12px;
-
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.experience-box:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-}
-
-.experience-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+.drawings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  margin-bottom: 12px;
+  width: 100%;
 }
 
-.experience-title {
-  font-size: 20px;
-  font-weight: 700;
-  color: inherit;
-  margin: 0;
+.drawing-box {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: transparent;
 }
 
-.experience-date {
-  font-size: 14px;
-  color: #888;
-  white-space: nowrap;
+.drawing-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
 }
 
-.experience-description {
-  font-size: 16px;
-  line-height: 1.65;
-  color: inherit;
+.drawing-box:hover img {
+  transform: scale(1.03);
 }
 
-.experience-description p {
-  margin: 4px 0;
-}
-
-/* Mobile */
-@media screen and (max-width: 700px) {
-  .experience-box {
-    padding: 22px;
+/* Tablet */
+@media screen and (max-width: 800px) {
+  .drawings-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .experience-header {
-    display: block;
-  }
-
-  .experience-date {
-    display: block;
-    margin-top: 5px;
+/* Phone */
+@media screen and (max-width: 500px) {
+  .drawings-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
 
 
-<div class="experience-container">
+<div class="drawings-grid">
 
-  <!-- Descartes Learning Club -->
-  <div class="experience-box">
-    <div class="experience-header">
-      <h2 class="experience-title">
-        Descartes Learning Club
-      </h2>
-
-      <div class="experience-date">
-        Fall 2026
-      </div>
-    </div>
-
-    <div class="experience-description">
-      <p>Taught kids fun math</p>
-      <p>One of my fav jobs :)</p>
-    </div>
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing1.jpg" alt="Drawing 1">
   </div>
 
-
-  <!-- nano@stanford -->
-  <div class="experience-box">
-    <div class="experience-header">
-      <h2 class="experience-title">
-        nano@stanford
-      </h2>
-
-      <div class="experience-date">
-        Summer 2024
-      </div>
-    </div>
-
-    <div class="experience-description">
-      <p>Monitored a lot of cool machines</p>
-      <p>Made the AFM standard operating procedures</p>
-      <p>For the lab name that will never be said. go bears!!</p>
-    </div>
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing2.jpg" alt="Drawing 2">
   </div>
 
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing3.jpg" alt="Drawing 3">
+  </div>
 
-  <!-- Medical Scribe -->
-  <div class="experience-box">
-    <div class="experience-header">
-      <h2 class="experience-title">
-        Medical Scribe, Dr. Ngoc Nguyen
-      </h2>
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing4.jpg" alt="Drawing 4">
+  </div>
 
-      <div class="experience-date">
-        Summer 2023
-      </div>
-    </div>
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing5.jpg" alt="Drawing 5">
+  </div>
 
-    <div class="experience-description">
-      <p>Documented ophthalmology diagnoses, medications, and procedures</p>
-      <p>learned so many many medical acronyms...</p>
-    </div>
+  <div class="drawing-box">
+    <img src="/images/drawings/drawing6.jpg" alt="Drawing 6">
   </div>
 
 </div>
-

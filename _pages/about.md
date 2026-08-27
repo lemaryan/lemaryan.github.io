@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-hello! i'm a undergraduate at uc berkeley studying data science with a domain emphasis of population and public health. i'm interested in machine learning and the applications in public health and biology
+hello! i'm a undergraduate at uc berkeley (go bears!!) studying data science with a domain emphasis of population and public health. i'm interested in machine learning and the applications in public health and biology
 
-at the moment, I'm researching at stanford and teaching at DLC. in my free time I like to touch grass!
+at the moment, I'm researching at stanford and teaching at DLC. i spend most of my free time on my hobbies!
 
 
 

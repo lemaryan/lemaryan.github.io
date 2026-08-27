@@ -21,7 +21,7 @@ main:
     url: /drawings/
 
   - title: "letters"
-  url: /letters/
+    url: /letters/
     
   # - title: "CV"
   #   url: /cv-json/

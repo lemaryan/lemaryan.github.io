@@ -24,9 +24,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "photo.png"
-  name             : "Maryan Le"
-  pronouns         : # example: "she/her"  
-  bio              : "ello!"
+  name             : "maryan le"
+  pronouns         : "she/her" 
+  bio              : #
   location         : #
   university       : "UC Berkeley"
   uri              : # URL

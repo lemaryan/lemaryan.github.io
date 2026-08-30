@@ -9,8 +9,8 @@ author_profile: false
   <div class="course-semester">
     <h2>fall 2026</h2>
     <ul>
-      <li>cph c100: foundations of computational precision health</li>
       <li>data c101: data engineering</li>
+      <li>cph c100: foundations of computational precision health</li>
       <li>pbpol 190: data science and ai tools for strategic public policy thinking about the future</li>
     </ul>
   </div>

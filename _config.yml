@@ -27,8 +27,8 @@ author:
   name             : "maryan le"
   pronouns         : #
   bio              : #
-  location         : #
-  university       : "UC Berkeley"
+  location         : "UC Berkeley"
+  university       : #
   uri              : # URL
   email            : "maryanle@berkeley.edu" 
 

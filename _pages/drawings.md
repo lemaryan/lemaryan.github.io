@@ -1,44 +1,6 @@
----
-title: "sketches"
+title: "drawings"
 permalink: /drawings/
+
 author_profile: false
----
 
-<style>
-.drawings-container {
-  width: 100%;
-  margin: 30px auto;
-}
-
-.drawing-box {
-  width: 100%;
-  height: 450px;
-  margin-bottom: 25px;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.drawing-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-</style>
-
-<div class="drawings-container">
-
-  <div class="drawing-box">
-    <img src="/images/drawing1.png" alt="Drawing 1">
-  </div>
-
-  <div class="drawing-box">
-    <img src="/images/drawing2.png" alt="Drawing 2">
-  </div>
-
-  <div class="drawing-box">
-    <img src="/images/drawing3.png" alt="Drawing 3">
-  </div>
-
-</div>
+<style> .drawings-container { width: 100%; max-width: 1200px; margin: 50px auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; } .drawing-box { width: 100%; aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; } .drawing-box img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; } @media (max-width: 700px) { .drawings-container { grid-template-columns: 1fr; gap: 25px; } } </style> <div class="drawings-container"> <div class="drawing-box"> <img src="/images/d1.png" alt="Drawing 1"> </div> <div class="drawing-box"> <img src="/images/d2.png" alt="Drawing 2"> </div> <div class="drawing-box"> <img src="/images/d3.png" alt="Drawing 3"> </div> <div class="drawing-box"> <img src="/images/d4.png" alt="Drawing 4"> </div> <div class="drawing-box"> <img src="/images/drawing5.png" alt="Drawing 5"> </div> <div class="drawing-box"> <img src="/images/d6.png" alt="Drawing 6"> </div> <div class="drawing-box"> <img src="/images/d7.png" alt="Drawing 7"> </div> <div class="drawing-box"> <img src="/images/d8.png" alt="Drawing 8"> </div> <div class="drawing-box"> <img src="/images/d9.png" alt="Drawing 9"> </div> </div>

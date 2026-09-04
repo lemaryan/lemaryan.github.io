@@ -63,8 +63,70 @@ author_profile: false
   margin: 4px 0;
 }
 
+
+/* Volunteer section */
+
+.volunteer-container {
+  width: 100%;
+  margin: 50px 0 30px;
+}
+
+.volunteer-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 28px 32px;
+  margin-bottom: 22px;
+
+  /* Matches your site's background */
+  background-color: transparent;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.volunteer-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.volunteer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.volunteer-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: inherit;
+  margin: 0;
+}
+
+.volunteer-date {
+  font-size: 14px;
+  color: #888;
+  white-space: nowrap;
+}
+
+.volunteer-description {
+  font-size: 16px;
+  line-height: 1.65;
+  color: inherit;
+}
+
+.volunteer-description p {
+  margin: 4px 0;
+}
+
+
 /* Mobile */
+
 @media screen and (max-width: 700px) {
+
   .experience-box {
     padding: 22px;
   }
@@ -77,9 +139,24 @@ author_profile: false
     display: block;
     margin-top: 5px;
   }
+
+  .volunteer-box {
+    padding: 22px;
+  }
+
+  .volunteer-header {
+    display: block;
+  }
+
+  .volunteer-date {
+    display: block;
+    margin-top: 5px;
+  }
 }
 </style>
 
+
+<!-- Experience -->
 
 <div class="experience-container">
 
@@ -100,7 +177,8 @@ author_profile: false
     </div>
   </div>
 
-   <!-- Stanford Research -->
+
+  <!-- Stanford Research -->
   <div class="experience-box">
     <div class="experience-header">
       <h2 class="experience-title">
@@ -117,6 +195,7 @@ author_profile: false
       <p>benchmarking methods over new and preexisting algorithms</p>
     </div>
   </div>
+
 
   <!-- Descartes Learning Club -->
   <div class="experience-box">
@@ -171,6 +250,51 @@ author_profile: false
     <div class="experience-description">
       <p>documented ophthalmology diagnoses, medications, and procedures</p>
       <p>processed many insurance authorizations...</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Volunteer -->
+
+<h1>volunteer</h1>
+
+<div class="volunteer-container">
+
+  <!-- Volunteer Organization 1 -->
+  <div class="volunteer-box">
+    <div class="volunteer-header">
+      <h2 class="volunteer-title">
+        berkeley math tournament
+      </h2>
+
+      <div class="volunteer-date">
+        2025–2026
+      </div>
+    </div>
+
+    <div class="volunteer-description">
+      <p>Proctored exams, ran activities, and graded exams</p>
+    </div>
+  </div>
+
+
+  <!-- Volunteer Organization 2 -->
+  <div class="volunteer-box">
+    <div class="volunteer-header">
+      <h2 class="volunteer-title">
+        nano@stanford
+      </h2>
+
+      <div class="volunteer-date">
+        2024–2025
+      </div>
+    </div>
+
+    <div class="volunteer-description">
+      <p>Taught middle school students about circuit boards</p>
+      <p>Led fun, hands-on activities where people built their own light-up LED setup</p>
     </div>
   </div>
 
